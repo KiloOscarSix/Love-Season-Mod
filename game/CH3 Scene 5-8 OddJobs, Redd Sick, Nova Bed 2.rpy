@@ -115,9 +115,9 @@ label Day5NovaTown:
 default dynamicChoice1 = ""
 default dynamicChoice2 = ""
 if CoolStoryBro == 1:
-    dynamicChoice2 = "[red]\[EveLove -1\]"
+    $ dynamicChoice2 = "[red]\[EveLove -1\]"
 else:
-    dynamicChoice1 = "[gr]\[EveLove +1\]"
+    $ dynamicChoice1 = "[gr]\[EveLove +1\]"
 
 menu:
     "It was nothing. [dynamicChoice1]":
