@@ -791,10 +791,10 @@ label Day6End:
     show nova sad with Dissolve(0.2)
     nov "Damn it..."
     mc "But what does he know? I'm going to the mountain, [Nova], I won't let dad die, I don't mind the risk."
-    scene black with Dissolve(5)
-    scene EndOfChapter3 with dissolve
-    "To be continued. Now would be a good time to save."
-    "Thank you for playing Love Season. Please look forward to our next chapter and consider helping us on Patreon, join our Discord and check our other game - Farmer's Dreams!"
+    scene black with Dissolve(2)
+    scene EndOfChapter3 with Dissolve(3)
     $ persistent.ch3 = True
-    return
+    pause
+
+    jump Day6EndCH4
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
